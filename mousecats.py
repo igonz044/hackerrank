@@ -12,8 +12,9 @@ q = int(input().strip())
 print("q is: " + str(q))
 
 for i in range(q):
-    x,y,z = input().strip().split(' '); #split() - splits a string into a list
+    x,y,z = input().strip().split(' ') #split() - splits a string into a list
     x,y,z = [int(x),int(y),int(z)]
+    #print(type(x))
 
 if abs(x-z) > abs(y-z):
     print("Cat A")
@@ -21,5 +22,3 @@ elif abs(x-z) < abs(y-z):
     print("Cat B")
 else:
     print("Mouse C")
-
-print("hello")
