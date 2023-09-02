@@ -7,7 +7,7 @@
 print("Input size: ")
 n = int(input().strip())
 
-print("Input array of 3 numbers: ")
+print("Input array of " + str(n) + " numbers: ")
 
 pos=0
 neg=0
