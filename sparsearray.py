@@ -26,7 +26,7 @@ def solution2(strings, queries):
     n_queries = 0
 
     for i in range(len(queries)):
-        n_queries = strings.count(queries[i]) 
+        n_queries = strings.count(queries[i])
         query_arr.append(n_queries)
 
     return query_arr
