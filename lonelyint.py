@@ -20,4 +20,3 @@ if __name__ == '__main__':
     print("Solution: ")
     result = find_lonelyint(int_array)
     print(result)
-    #
