@@ -26,11 +26,7 @@ def solution2(strings, queries):
     n_queries = 0
 
     for i in range(len(queries)):
-<<<<<<< HEAD
         n_queries = strings.count(queries[i])
-=======
-        n_queries = strings.count(queries[i]) 
->>>>>>> e4b4ed070695ec53e5c155e5ccefd8a4fc164c83
         query_arr.append(n_queries)
 
     return query_arr
