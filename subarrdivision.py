@@ -26,7 +26,7 @@ def birthday(s, d, m):
             count += s[i+j]
         if count == d:
             result += 1
-            # i -=1
+            # i -=
         count = 0
 
     return result
