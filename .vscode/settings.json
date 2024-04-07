@@ -2,6 +2,10 @@
     "files.associations": {
         "iostream": "cpp",
         "algorithm": "cpp",
-        "string": "cpp"
-    }
+        "string": "cpp",
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "ostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
