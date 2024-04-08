@@ -19,7 +19,7 @@
     //we will delete them here using v.erase(v.begin()) & v.erase(v.end())
     //test: v=0001001
     let one = false;
-    let v = [0, 0, 1, 0, 0, 1, 0];
+    let v = [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0];
     console.log(v);
     console.log(v.length);
     console.log("\n");
@@ -36,6 +36,7 @@
     }
     console.log(v);
     console.log(v.length);
+
     // Finding max of 2 values:
     // let a = 10;
     // let b = 20;
