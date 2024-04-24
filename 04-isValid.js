@@ -4,28 +4,27 @@
  * @param {string} s
  * @return {boolean}
  */
+//Fix bug that causes infinite loop
 function isValid(s) {
-    // Your code here
-    
     n = s.length;
+    console.log(s[n-1]);
     if(n%2!=0){
-        
         return false;
-    }else{console.log("helloo");
-        for(let i = 0; i < n; i++){console.log("xxxxx");
+    }else{
+        for(let i = 0; i < n; i++){
             if(s[i]==s[n-1]){
                 //shift to remove first
                 s.shift();
                 //pop to remove last
                 s.pop();
+                console.log("length is: " + s.length);
                 if(s=null){
                     break;
                 }
             }
-            else{console.log("oooo ");
+            else{
                 i--;
                 if(s=null){
-                    console.log(s);
                     break;
                 }
             }
@@ -39,5 +38,5 @@ function isValid(s) {
     }
 }
 //Test cases
-let A = "()";
+let A = "[()]";
 isValid(A);//returns false
