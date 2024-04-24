@@ -2,7 +2,6 @@
 //Array has 1 value or less 
 //removes duplicates
 //negative values
-
 function maxDifference(oString){
     let small, large;
 
@@ -12,7 +11,7 @@ function maxDifference(oString){
     
     oString.sort();
     
-    //remove duplicates for fun
+    //this is how to remove duplicates
     //*if using this method make sure to set to a new Array
     let uniqueValues = [...new Set(oString)];
 
@@ -25,4 +24,4 @@ A = [1, 1, 2, 3, 3];
 B = [-1, -2, 3, 3];
 C = [1];
 D = [];
-console.log(maxDifference(B));
+console.log(maxDifference(A));

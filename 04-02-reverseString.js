@@ -10,8 +10,6 @@ function reverseString(oString){
     return rString;
 }
 A = "racecar";
-   //01234
-// reverseString(A);
 console.log("reversed: " + reverseString(A));
 
 

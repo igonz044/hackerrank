@@ -10,4 +10,4 @@ function maxDifference(numArray){
 }
 
 let A = [40, 10, 20, 30];
-console.log(maxDifference(A));
+console.log(maxDifference(A));//40-10=30

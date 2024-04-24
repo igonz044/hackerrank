@@ -3,7 +3,7 @@ function countPairs(Arr, target){
     //let included=[];
 
     for(let i = 0; i < Arr.length; i++){
-        for(let j = i + 1; j < Arr.length; j++){
+        for(let j = i+1; j < Arr.length; j++){
             if (i!=j /*&& i!=included.includes(i)*/){
                 if(Arr[i]+Arr[j]==target){
                     //included.push(j);
