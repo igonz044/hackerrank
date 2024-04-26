@@ -1,5 +1,7 @@
 //find if a string is a palindrome or not
 //ignore non-alphanumeric characters
+//CHATGPT improvement suggestion: let rB = B.split('').reverse().join('');
+//next review May 1st
 function isPalindrome(A){
     //1. replace all non-alphanumeric characters
     //so we only have letters left
