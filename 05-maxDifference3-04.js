@@ -37,7 +37,7 @@ console.log(maxDifference(C));
 //More concise implementation that also handles edge cases better 
 function maxDifference(nums) {
     if (nums.length < 2) {
-        return 0; // Edge case: Array has less than 2 elements
+        return 0; // Edge case: Array has less than 1 element
     }
 
     let minNum = nums[0];

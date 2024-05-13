@@ -12,7 +12,7 @@ function maxDifference(oString){
     oString.sort();
     
     //this is how to remove duplicates
-    //*if using this method make sure to set to a new Array
+    //if using this method make sure to set to a new Array
     let uniqueValues = [...new Set(oString)];
 
     small = oString[0];

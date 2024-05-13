@@ -1,10 +1,9 @@
 function longestSubstring(A){
-    //we will save longest substring as B, then return its length
+    //we will save longest substring as maxB, then return its length
     let B = [];
     let maxB = [];
 
     for(let i = 0; i < A.length; i++){
-
         if(!B.includes(A[i])){
             B.push(A[i]);
             if(B.length>maxB.length){

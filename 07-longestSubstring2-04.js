@@ -1,5 +1,5 @@
 //find longest substring in a given string
-//net review May1st
+//next review May21st
 
 function longestSubstring(A){
     let B = [];
@@ -21,8 +21,8 @@ function longestSubstring(A){
 }
 
 //Test Cases
-let A = "ab"; //output: 2
-let B = "bbbb";//output: 1
+let A = "aaabada";//output: 2
+let B = "bbbabdb";//output: 1
 let C = "pwwkew";//output: 3
 
 console.log(longestSubstring(A));//ab or 2

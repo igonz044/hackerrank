@@ -1,3 +1,4 @@
+//return total pairs that up to a target
 function countPairs(Arr, target){
     let count = 0;
     //let included=[];

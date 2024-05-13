@@ -1,3 +1,4 @@
+//Time Complexity: O(n^2)
 function productExceptSelf(A){
     let product = [];
     let x = 1;
@@ -14,6 +15,7 @@ function productExceptSelf(A){
     return product;
 }
 
+//Time Complexity: O(n+n) -> O(n)
 function productExceptSelf2(nums) {
     const n = nums.length;
     
